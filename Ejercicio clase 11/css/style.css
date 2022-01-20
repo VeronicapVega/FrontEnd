@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+.header{
+    display: flex;
+    background: #222222;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+
+}
+#pizza{
+    color: #39B24A;
+}
+#front{
+    color: red;
+}
+
+.barranav{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+ul.barranav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px ;
+}
+.delivery{
+    display: flex;
+    background-image: url(../img/delivery.jpg);
+    width: 490px;
+    height: 350px;
+    color: red;
+    justify-content: center;
+    font-size: 24px;
+}
+.podio{
+    display: flex;
+    width: 500px;
+    height: 370px;
+    padding: 28px;
+    color: #FC200C;
+
+}
+.titulo{
+    font-size: 24px;
+}
+.top{
+    order: -1;
+    align-self: center;
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+}
+.imagen{
+    align-self: center;
+}
+
+footer{
+    display: flex;
+    background: #222222;
+    justify-content: space-between;
+    height: 150px;
+    padding: 19px;
+}
+.barranav2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+footer ul.barranav2 li a{
+    color: white; 
+    text-decoration: none;
+}
